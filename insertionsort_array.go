@@ -1,5 +1,12 @@
 package main
 
+/*
+	--Author: Vetri--
+	-- Jun 21 2023 --
+
+	Worst Case analysis::::
+		N for outer loop and N for inner loop => N*N
+*/
 import "fmt"
 
 func insert(arr []int, size int) []int {
